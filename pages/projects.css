@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ! navbar ----------------------------------*/
+/* list style */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    text-align: right;
+}
+
+/* display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+
+}
+
+/* add - between items */
+ul.breadcrumb li+li::before {
+    padding: 8px;
+    color: black;
+    content: " - "
+}
+
+/* add color to all links */
+ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+}
+
+/*  mouseover */
+ul.breadcrumb li a:hover {
+    color: #85dcb8;
+    text-decoration: underline;
+}
